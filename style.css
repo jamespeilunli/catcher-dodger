@@ -6,3 +6,9 @@ button {
     margin: 5px;
 }
 
+main {
+    margin: auto;
+    max-width: 1024px;
+}
+
+
