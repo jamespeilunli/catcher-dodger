@@ -147,7 +147,7 @@ function run() {
     canvas = document.getElementById("canvas");
     ctx = canvas.getContext("2d");
 
-    dodger_game = document.getElementsByName("game-type")[0].checked; // is the game a dodger game (true)? or is it a catcher game (false)
+    dodger_game = document.getElementsByName("game-type")[1].checked; // is the game a dodger game (false)? or is it a catcher game (true)
 
     player = new Player(canvas.width/2, canvas.height-70, 50, 50, "white");
     falling_objects = [];
